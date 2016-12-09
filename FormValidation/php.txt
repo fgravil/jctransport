@@ -1,0 +1,65 @@
+paste into the value section of the 'fullname' input:
+
+
+<?php echo isset($_POST['fullname'])? $_POST['fullname'] : ''; ?>
+
+
+paste after the close of the 'fullname' input:
+
+
+<?php if(in_array('fullname', $validation)): ?><span class="error"><?php echo $error_messages['fullname']; ?></span><?php endif; ?>
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+paste into the value section of the 'email' input:
+
+
+<?php echo isset($_POST['email'])? $_POST['email'] : ''; ?>
+
+
+paste after the close of the 'email' input:
+
+
+<?php if(in_array('email', $validation)): ?><span class="error"><?php echo $error_messages['email']; ?></span><?php endif; ?>
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+paste this code in between the 'textarea' tags <textarea>  here! </textarea>
+
+
+
+<?php echo isset($_POST['comment'])? $_POST['comment'] : ''; ?>
+
+
+paste this code after the 'textarea' tags:
+
+
+<?php if(in_array('comment', $validation)): ?><span class="error"><?php echo $error_messages['comment']; ?></span><?php endif; ?>
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+place this code just after the closing submit tag:
+
+	
+<?php else: ?>
+<p>Thank you for your Message!</p>
+<?php endif; ?>
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+paste this code just after the div with an ID of #form:
+
+
+<?php if($form_complete === FALSE): ?>
+
+
+
+
+

@@ -1,0 +1,8 @@
+[02-Nov-2015 14:44:30 America/Chicago] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home1/jcprivat/public_html/Terms.php on line 63
+[02-Nov-2015 14:44:30 America/Chicago] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home1/jcprivat/public_html/Terms.php on line 63
+[02-Nov-2015 14:44:30 America/Chicago] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/jcprivat/public_html/Terms.php on line 63
+[02-Nov-2015 16:44:26 America/Chicago] PHP Parse error:  syntax error, unexpected '"\r\r"' (T_CONSTANT_ENCAPSED_STRING) in /home1/jcprivat/public_html/MakeReservation.php on line 42
+[02-Nov-2015 16:45:58 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/jcprivat/public_html/MakeReservation.php on line 100
+[02-Nov-2015 17:29:57 America/Chicago] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home1/jcprivat/public_html/Terms.php on line 63
+[02-Nov-2015 17:29:57 America/Chicago] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home1/jcprivat/public_html/Terms.php on line 63
+[02-Nov-2015 17:29:57 America/Chicago] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/jcprivat/public_html/Terms.php on line 63
